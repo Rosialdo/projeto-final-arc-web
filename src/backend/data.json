@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "nome_prod": "Televisão",
+        "descricao": "TV 60 polegadas",
+        "image": "https://a-static.mlcdn.com.br/450x450/smart-tv-60-polegadas-4k-wifi-tizen-crystal-uhd-samsung/gazinshop/10642/a7abd160bc8669c437b196b55207c6ca.jpeg",
+        "valor": "0",
+        "time": 60,
+        "sold": false,
+        "startAt": "",
+        "bidders": []
+    },
+    {
+        "id": 2,
+        "nome_prod": "Livro",
+        "descricao": "Pai rico e pai pobre",
+        "image": "https://images-americanas.b2w.io/produtos/01/00/img/132341/9/132341907_1SZ.jpg",
+        "valor": "0",
+        "time": 60,
+        "sold": false,
+        "startAt": "",
+        "bidders": []
+    },
+    {
+        "id": 3,
+        "nome_prod": "Luffy",
+        "descricao": "Figure luffy one piece",
+        "image": "https://m.media-amazon.com/images/I/51MgM+3WEEL._AC_UF894,1000_QL80_.jpg",
+        "valor": "0",
+        "time": 60,
+        "sold": false,
+        "startAt": "",
+        "bidders": []
+    },   
+    {
+        "id": 4,
+        "nome_prod": "S23",
+        "descricao": "Telefone Samsung S23",
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-s711blgjzto/gallery/br-galaxy-s23-fe-s711-sm-s711blgjzto-538427989?$650_519_PNG$",
+        "valor": "0",
+        "time": 60,
+        "sold": false,
+        "startAt": "",
+        "bidders": []
+    },
+    {
+        "id": 5,
+        "nome_prod": "Alexa",
+        "descricao": "Amazon Alexa",
+        "image": "https://a-static.mlcdn.com.br/450x450/amazon-echo-dot-3rd-gen-smart-speaker-com-alexa-preto/olistplus/o2e6jjctzsijmqyb/09609964c82bea3675d7e2a437972849.jpeg",
+        "valor": "0",
+        "time": 60,
+        "sold": false,
+        "startAt": "",
+        "bidders": []
+    }
+]
