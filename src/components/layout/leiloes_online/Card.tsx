@@ -33,7 +33,7 @@ const Card: React.FC<CardProps> = ({
             {items.map((item, index) => (
                 <div
                     key={index}
-                    className="p-2 px-3 border border-gray-200 rounded max-h-64 max-w-4xl items-center justify-around flex flex-col bg-indigo-500"
+                    className="p-2 px-3 border border-gray-200 rounded max-h-64 max-w-4xl items-center justify-around flex flex-col bg-blue-500"
                 >
                     <h2 className="text-base font-bold mb-0 text-center">
                         {item.nome_prod}
@@ -58,7 +58,7 @@ const Card: React.FC<CardProps> = ({
                             ? item.bidders[item.bidders.length - 1]
                             : ""}
                     </p>
-                    <p className="text-sm text-red-700"
+                    <p className="text-sm text-red-500"
                     >Valor atual: {item.valor}</p>
                     <button
                         className="bg-red-600 hover:bg-red-800 text-white font-bold px-2 rounded text-xs"

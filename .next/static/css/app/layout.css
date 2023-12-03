@@ -2151,6 +2151,26 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(159 88 10 / var(--tw-bg-opacity));
 }
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 82 82 / var(--tw-bg-opacity));
+}
+.bg-\[\#545759\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(84 87 89 / var(--tw-bg-opacity));
+}
+.bg-\[\#BFBFBF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 191 191 / var(--tw-bg-opacity));
+}
+.bg-\[\#0D0D0D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 13 13 / var(--tw-bg-opacity));
+}
+.bg-\[\#A6A39F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(166 163 159 / var(--tw-bg-opacity));
+}
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }

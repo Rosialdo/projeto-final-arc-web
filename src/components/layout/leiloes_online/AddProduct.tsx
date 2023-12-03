@@ -23,7 +23,7 @@ const AddProduct: React.FC<AddProductProps> = ({ closeModal, socket }) => {
     };
     return (
         <div className="fixed inset-0 flex items-center justify-center z-50">
-            <div className="bg-slate-400 p-4 rounded shadow-lg">
+            <div className="bg-[#A6A39F] p-4 rounded shadow-lg">
                 <button
                     className="bg-orange-600 hover:bg-orange-800 text-white font-bold py-2 px-4 rounded"
                     onClick={closeModal}
