@@ -57,7 +57,7 @@ npm run dev
 
 ## Video de demonstração:
 
-- [Repositório do Gulherme Bernado](https://github.com/GuilhermeBn198/Leilao-centavos-SocketIO)
+- [Video de explicação e demonstração do projeto]( )
 
 
 ## Referência

@@ -26,7 +26,7 @@ export default function Home() {
   const [items, setItems] = useState<Item[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [user, setUser] = useState<user | null>(null);
-  const [lances, setLances] = useState(15); // Declare lances state here
+  const [lances, setLances] = useState(15); 
 
   const handleLogin = (userData: user) => {
     setIsModalOpen(false);
