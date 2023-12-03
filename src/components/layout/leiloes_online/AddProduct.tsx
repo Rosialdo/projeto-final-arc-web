@@ -7,7 +7,6 @@ interface AddProductProps {
 }
 
 const AddProduct: React.FC<AddProductProps> = ({ closeModal, socket }) => {
-    // Add closeModal prop
     const [nome_prod, setnome_prod] = useState("");
     const [descricao, setdescricao] = useState("");
     const [image, setimage] = useState("");

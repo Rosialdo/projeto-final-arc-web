@@ -12,7 +12,7 @@ interface Item {
     bidders: string[];
 }
 
-interface GridProps {
+interface CardProps {
     items: Item[];
     socket: any;
     user: string;
@@ -20,17 +20,13 @@ interface GridProps {
     subtractLance: () => void;
 }
 
-const Grid: React.FC<GridProps> = ({
+const Card: React.FC<CardProps> = ({
     items,
     socket,
     user,
     lances,
     subtractLance,
 }) => {
-    // console.log("Items: ", items); // Log the items
-    // console.log("Socket: ", socket); // Log the socket
-    // console.log("User: ", user); // Log the user
-    // console.log("Lances: ", lances); // Log the lances
 
     return (
         <div className="grid grid-cols-8 gap-2">
@@ -76,7 +72,7 @@ const Grid: React.FC<GridProps> = ({
                             }
                         }}
                     >
-                        Dar Lance
+                        realizar um lance
                     </button>
                     <div className="flex w-full ">
                         <p className="text-quaseminusculo text-center pt-1">
@@ -89,4 +85,4 @@ const Grid: React.FC<GridProps> = ({
     );
 };
 
-export default Grid;
+export default Card;

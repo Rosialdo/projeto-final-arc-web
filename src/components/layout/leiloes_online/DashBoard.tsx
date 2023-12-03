@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Grid from "./Grid";
+import Card from "./Card";
 import AddProduct from "./AddProduct";
 
 interface DashBoardProps {
@@ -65,7 +65,7 @@ export default function DashBoard({ items, socket, user, lances, subtractLance, 
                 </div>
             </div>
             <section className="flex mt-2 justify-center">
-                <Grid items={items} socket={socket} user={user} lances={lances} subtractLance={subtractLance} />
+                <Card items={items} socket={socket} user={user} lances={lances} subtractLance={subtractLance} />
                 {isModalOpen && (
                     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center backdrop-filter backdrop-blur z-50">
                         <AddProduct closeModal={closeModal} socket={socket} />
