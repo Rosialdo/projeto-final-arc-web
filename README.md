@@ -57,7 +57,7 @@ npm run dev
 
 ## Video de demonstração:
 
-- [Video de explicação e demonstração do projeto]( )
+- [Video de explicação e demonstração do projeto](https://youtu.be/Fo8kC8XVrMc)
 
 
 ## Referência
